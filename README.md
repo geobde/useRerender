@@ -18,7 +18,7 @@ import { useRerender } from "use-is-rerender";
 
 ### Full example
 
-```
+```javascript
 import { useRerender } from 'use-is-rerender'
 
 const Button = () => {
