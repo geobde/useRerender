@@ -8,10 +8,15 @@ const useRerender = () => {
   const props = owner.pendingProps;
 
   React.useEffect(() => {
-    console.log(
-      `Component ${name} rerender with ${JSON.stringify(props)} props`
-    );
-  }, [name, props]);
+    console.log(`Component ${name} mounted`);
+    return () => {
+      console.log(`Component ${name} unmounted`);
+    };
+  }, [name]);
+
+  console.log(
+    `Component ${name} rerender with props: ${JSON.stringify(props)} `
+  );
 };
 
 export default useRerender;
