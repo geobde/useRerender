@@ -27,7 +27,7 @@ const Button = () => {
 };
 ```
 
-<img src="https://github.com/geobde/useRerender/blob/main/demo.png" width="600" height="600">
+<img src="https://github.com/geobde/useRerender/blob/main/demo.png" width="800" height="600">
 
 ## Built With
 
