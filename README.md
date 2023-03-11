@@ -22,7 +22,7 @@ import { useRerender } from "use-is-rerender";
 import { useRerender } from 'use-is-rerender'
 
 const Button = () => {
-  useTilg()
+  useRerender()
   return <button>Click</button>
 }
 
