@@ -19,14 +19,15 @@ import { useRerender } from "use-is-rerender";
 ### Full example
 
 ```javascript
-import { useRerender } from 'use-is-rerender'
+import { useRerender } from "use-is-rerender";
 
 const Button = () => {
-  useRerender()
-  return <button>Click</button>
-}
-
+  useRerender();
+  return <button>Click</button>;
+};
 ```
+
+<img src="https://github.com/geobde/useRerender/blob/main/demo.png" width="600" height="600">
 
 ## Built With
 
