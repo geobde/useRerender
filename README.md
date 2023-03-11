@@ -1,5 +1,3 @@
-#React hook to detect  component re-renders.
-
 # React hook to detect component mount, unmount & re-renders.
 
 ## Installation
