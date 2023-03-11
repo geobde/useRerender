@@ -1,6 +1,6 @@
 {
   "name": "use-is-rerender",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "React hook to detect component mount, unmount & re-renders",
   "main": "index.js",
   "scripts": {
