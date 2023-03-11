@@ -1,0 +1,35 @@
+{
+  "name": "use-is-rerender",
+  "version": "1.0.0",
+  "description": "React hook to detect component re-renders.",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src --out-dir .",
+    "bump": "npm version",
+    "example": "cd example && yarn install && yarn package",
+    "prepublishOnly": "yarn build",
+    "watch": "nodemon --watch src --exec \"yarn build\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geobde/useRerender.git"
+  },
+  "keywords": [
+    "react",
+    "rereender",
+    "re-render"
+  ],
+  "author": "George Bardi",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "@babel/preset-react": "^7.9.4",
+    "nodemon": "^2.0.2"
+  },
+  "bugs": {
+    "url": "https://github.com/geobde/useRerender/issues"
+  },
+  "homepage": "https://github.com/geobde/useRerender#readme"
+}
