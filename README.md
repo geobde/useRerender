@@ -32,9 +32,6 @@ const Button = () => {
 ## Read More
 * [React Performance](https://medium.com/@geobde/react-performance-91d84678c613)
 
-## Built With
-
-[React](https://reactjs.org/)
 
 ## License
 
