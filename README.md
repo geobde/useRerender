@@ -30,7 +30,7 @@ const Button = () => {
 <img src="https://github.com/geobde/useRerender/blob/main/demo.png" width="900" height="500">
 
 ## Read More
-* [React Performance](https://medium.com/@geobde/react-performance-91d84678c613)
+[React Performance](https://medium.com/@geobde/react-performance-91d84678c613)
 
 
 ## License
