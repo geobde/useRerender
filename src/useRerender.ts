@@ -1,6 +1,10 @@
 import React from 'react'
 
 export function useRerender() {
+    if (process.env.NODE_ENV === 'production') {
+        return
+    }
+
     // @ts-ignore
     const owner = React?.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED?.ReactCurrentOwner?.current
     const name = owner?.type?.name ? `<${owner.type.name} />` : ''
