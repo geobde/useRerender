@@ -2,13 +2,11 @@
   "name": "use-is-rerender",
   "version": "1.0.2",
   "description": "React hook to detect component mount, unmount & re-renders",
-  "main": "index.js",
+  "type": "module",
   "scripts": {
-    "build": "babel src --out-dir .",
-    "bump": "npm version",
-    "example": "cd example && yarn install && yarn package",
-    "prepublishOnly": "yarn build",
-    "watch": "nodemon --watch src --exec \"yarn build\""
+    "build": "rimraf dist && tsc",
+    "build:watch": "rimraf dist && tsc -w",
+    "prepare": "yarn run build"
   },
   "repository": {
     "type": "git",
@@ -21,15 +19,28 @@
   ],
   "author": "George Bardi",
   "license": "MIT",
-  "devDependencies": {
-    "@babel/cli": "^7.8.4",
-    "@babel/core": "^7.9.0",
-    "@babel/preset-env": "^7.9.0",
-    "@babel/preset-react": "^7.9.4",
-    "nodemon": "^2.0.2"
-  },
   "bugs": {
     "url": "https://github.com/geobde/useRerender/issues"
   },
-  "homepage": "https://github.com/geobde/useRerender#readme"
+  "homepage": "https://github.com/geobde/useRerender#readme",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js"
+    }
+  },
+  "module": "./dist/index.js",
+  "typings": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "@types/node": "^18.15.5",
+    "@types/react": "^18.0.28",
+    "react": "^18.2.0",
+    "rimraf": "^4.4.0",
+    "typescript": "^5.0.2"
+  },
+  "peerDependencies": {
+    "react": ">=16"
+  }
 }
