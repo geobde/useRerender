@@ -37,8 +37,3 @@ Hook not working when `NODE_ENV==='production'`
 
 ## Read More
 [React Performance](https://medium.com/@geobde/react-performance-91d84678c613)
-
-
-## License
-
-[MIT](./LICENSE.md)
