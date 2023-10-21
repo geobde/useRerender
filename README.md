@@ -37,3 +37,8 @@ Hook not working when `NODE_ENV==='production'`
 
 ## Read More
 [React Performance](https://medium.com/@geobde/react-performance-91d84678c613)
+
+## Contributors
+<a href="https://github.com/geobde/useRerender/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=geobde/useRerender&max=400&columns=20" />
+</a>
