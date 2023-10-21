@@ -42,3 +42,6 @@ Hook not working when `NODE_ENV==='production'`
 <a href="https://github.com/geobde/useRerender/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=geobde/useRerender&max=400&columns=20" />
 </a>
+
+## License
+See the [LICENSE](./LICENSE) file for licensing information.
