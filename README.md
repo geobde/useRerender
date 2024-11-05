@@ -29,7 +29,7 @@ const Button = () => {
 
 Option   | Acceptable&nbsp;Values                                                       | Details
 ---------|------------------------------------------------------------------------------|---
-logProps | <ul><li><code>true</code>&nbsp;**(default)**</li><li><code>false</code></ul> | Can disable props logging    
+logProps | <ul><li><code>true</code>&nbsp;**(default)**</li><li><code>false</code></ul> | Can disable props logging.
 
 ## Production mode
 Hook not working when `NODE_ENV==='production'`
